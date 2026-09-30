@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+/ml_exercise/deep-learning-with-pytorch/cat_dog_dataset

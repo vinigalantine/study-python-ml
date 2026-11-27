@@ -1,0 +1,19 @@
+# PyTorch notebooks (deep-learning-with-pytorch, transformer from scratch).
+# Create with: conda env create -f environments/pytorch-nn.yml
+name: pytorch-nn
+channels:
+  - defaults
+dependencies:
+  - python=3.14.7
+  - matplotlib=3.11.2
+  - jupyter
+  - notebook
+  - ipywidgets
+  - six
+  - nomkl
+  - pip
+  - pip:
+      # torch/torchvision were installed with pip, so conda doesn't track them in history
+      - numpy==2.5.3
+      - torch==2.14.0
+      - torchvision==0.29.0

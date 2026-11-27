@@ -1,0 +1,14 @@
+# NumPy / Pandas / Matplotlib / Seaborn notebooks and the "from scratch" ML exercises.
+# Create with: conda env create -f environments/studying-ml.yml
+name: studying-ml
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12.13
+  - numpy=2.4.4
+  - pandas=3.0.2
+  - matplotlib=3.10.8
+  - seaborn=0.13.2
+  - jupyter
+  - notebook
